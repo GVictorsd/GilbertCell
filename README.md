@@ -23,16 +23,22 @@ A Gilbert Cell is designed and implemented using CMOS logic with the help of Syn
 Gilbert Cell is an analog multiplier or mixer circuit that takes in two signals as input and produces their analog product as output. It can be viewed as a circuit whose gain can be electrically controlled. It is a popular choice for IC design since it can be built only using transistors without a need for components like inductors which are harder to fabricate. The popular applications of Gilbert cell include Variable gain amplifier, Four quadrant analog multiplier, Automatic gain control circuits, phase detector and frequency mixer. It can be used in modulation processes like AM, SSB and DSB.
 
 The main component of a Gilbert cell is a differential amplifier pair which is built using four transistors. The first input signal of the mixer is provided to this circuit. The differential pair needs to be supplied with two dependent current sources. The gain of the differential pair depends on these tail current values. A Third differential amplifier circuit is used to act as the current source for the differential pair. The operation of the third diff-amplifier depends on the input voltage level provided by the second input signal of the mixer. This entire setup is referred to as the Gilbert Cell or Gilbert mixer circuit. The output of the system is the analog product of two input signals scaled by a constant factor.
+<br>
+
+# Initial Report
+The Initial Report for the design can be found [here](CircuitReport.pdf)
+<br>
 
 
 <a name=”tools_used”></a>
+
 
 # Tools Used
 
 * [**Synopsys Custom Design Suite**](https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html) : The Synopsys Custom Design Platform is a unified suite of design and verification tools that accelerates the development of robust analog and mixed-signal designs. The platform features Custom Compiler™, a fast, easy-to-use design, and layout solution, PrimeSim™ Continuum, which delivers industry-leading circuit simulation performance, and best-in-class technologies for parasitic extraction, reliability analysis, and physical verification.
 
 * **Synopsys 28nm PDK** The Synopsys 28nm Process Design Kit (PDK) was used in design and simulation of the circuit. 
-
+<br>
 
 <a name=”reference_circuit”></a>
 
